@@ -3,9 +3,9 @@ import './TodoItem.css';
 function TodoItem(props){
     return(
         <li className='TodoItem'>
-            <span>C</span>
-            <p>{props.text}</p>
-            <span>X</span>
+            <span onClick={props.onComplete}>✔</span>
+            <p className={`${props.complete && 'RolitasE'}`}>{props.text}</p>
+            <span onClick={props.onDelete}>❌</span>
         </li>
     );
 }
