@@ -1,6 +1,9 @@
 .CreateTodoButton{
+    position: relative;
+    z-index: 1;
     margin: 10px 20px;
-    background-color: rgba(82, 35, 175, 0);
+    color: rgb(6, 255, 19);
+    background-color: rgba(85, 0, 255, 0);
     border: none;
     font-weight: bold;
     font-size: 30px;
@@ -16,7 +19,7 @@
     -o-transition: .3s ease;
 }
 .CreateTodoButton:hover{
-    color: rgb(174, 0, 255);
+    color: rgb(255, 0, 106);
     transform: rotate(360deg);
     -webkit-transform: rotate(360deg);
     -moz-transform: rotate(360deg);
