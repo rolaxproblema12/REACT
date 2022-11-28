@@ -1,5 +1,5 @@
 {
-  "name": "ract",
+  "name": "react",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -40,5 +40,5 @@
   "devDependencies": {
     "gh-pages": "^4.0.0"
   },
-  "homepage": "https://rolaxproblema12.github.io/ract"
+  "homepage": "https://rolaxproblema12.github.io/react"
 }
