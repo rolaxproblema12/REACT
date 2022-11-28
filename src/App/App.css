@@ -2,4 +2,6 @@ body{
   
   background-image: linear-gradient(to left top, #ff0091, #f000a8, #db1bc0, #bc32d6, #9245ea, #6c66f9, #407eff, #0091ff, #00b1ff, #00ccff, #00e5fd, #5ffbf1);  background-repeat: no-repeat;
   background-size:cover;
+  height: 100rem;
+
 }

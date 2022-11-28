@@ -1,7 +1,6 @@
 // import React from 'react';
 import ReactDOM from 'react-dom';
 import "./Modal.css";
-import { CreateTodoButton } from '../CreateTodoButton';
 
 function Modal({children}){
     return ReactDOM.createPortal(
